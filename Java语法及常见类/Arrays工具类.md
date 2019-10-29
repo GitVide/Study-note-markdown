@@ -1,0 +1,43 @@
+# Arrays工具类
+
+## 一、包
+
+java.util.Arrays
+
+## 二、静态方法
+
+1）public static String toString(int[] a)
+
+2）public static void sort(int[] a)
+
+3）public static int binarySearch(int[] a, int key)
+
+```java
+package array.util;
+
+import java.util.Arrays;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int[] array= {1,5,2,6,3,9,50,21,63,54,11};
+        //toString()
+		System.out.println(Arrays.toString(array));
+        //sort()
+		Arrays.sort(array);
+		System.out.println(Arrays.toString(array));
+        //binarySearch()
+		System.out.println(Arrays.binarySearch(array, 6));
+	}
+}
+
+```
+
+
+
+## 三、自定义类
+
+自定义类如果要调用sort方法：
+
+必须实现Comparable接口，实现其中的compreTo方法
+
