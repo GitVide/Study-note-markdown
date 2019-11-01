@@ -6,11 +6,17 @@ java.util.Arrays
 
 ## 二、静态方法
 
-1）public static String toString(int[] a)
+1）**public static String toString(int[] a)**
 
-2）public static void sort(int[] a)
+2）**public static void sort(int[] a)**
 
-3）public static int binarySearch(int[] a, int key)
+3）**public static int binarySearch(int[] a, int key)**
+
+4) **Arrays.copyOf(int[] original, int newLength)**
+
+复制指定的数组---效率低，会重新开辟新的数组空间original - 要复制的数组;
+
+newLength - 要返回的副本的长度。
 
 ```java
 package array.util;
