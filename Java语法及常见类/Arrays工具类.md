@@ -12,7 +12,7 @@ java.util.Arrays
 
 3）**public static int binarySearch(int[] a, int key)**
 
-4)  **Arrays.copyOf(int[] original, int newLength)**
+4) **Arrays.copyOf(int[] original, int newLength)**
 
 复制指定的数组---效率低，会重新开辟新的数组空间original - 要复制的数组;
 
