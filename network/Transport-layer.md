@@ -18,3 +18,10 @@ wait and stop停等原则
 
 
 
+## TCP
+
+**MSS:maximum segment size(指的是包体部分)**
+
+4.23
+
+5.18
